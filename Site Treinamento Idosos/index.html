@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--firebase deploy --only hosting-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/favicon.ico">
+    <title>Terapia Integrativa</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+    <script src="./server.js"></script>
+</head>
+<body>
+ 
+    <header>
+        <img id="logo" src="./imagens/meditando.jpg" alt="imagem">
+    </header>
+    <main>
+        <h2>Verenice Feitosa</h2>
+        <h3>Terapeuta</h3>
+        <h1>Reiki e Barras de Access</h1>
+    
+        <section id="campo1" >
+            <p>Como o Reiki pode me ajudar?</p>
+        </section>
+    </main>
+    <input id="usuarioId" type="text" placeholder="usuarioId">
+    <input id="nome" type="text" placeholder="nome">
+    <input id="email" type="text" placeholder="email">
+    <button onclick="enviarDado()">Salvar</button> 
+    <button onclick="abrirChat()">Salvar</button> 
+    
+
+
+
+    <footer>
+        <section >
+            <a id="chamada-whatsapp" href="./testeDeTela.html">
+                <Img src="./whatsapp.png"></Img>
+            </a>
+        </section>
+    </footer>
+
+
+
+</body>
+</html>
